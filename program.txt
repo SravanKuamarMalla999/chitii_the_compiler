@@ -1,0 +1,57 @@
+print "<<<<<<<<<<<<<<chitti the compiler >>>>>>>>>>>>>>>>> Comprehensive Test"
+
+# Basic variables and arithmetic
+x = 10
+y = 20
+
+print "Value of x:"
+print x
+print "Value of y:"
+print y
+
+z = x + y * 2
+print z
+
+# Input from user
+print "Enter a number:"
+a = input()
+print "You entered:"
+print a
+
+# Function that adds two integers
+func add(a, b) {
+    return a + b
+}
+
+result = add(x, y)
+print "Result of add(x, y):"
+print result
+
+# Arrays: declaration, access, update
+arr = [5, 10, 15, 20]
+
+print "Initial array elements:"
+print arr[0]
+print arr[1]
+print arr[2]
+print arr[3]
+
+print "Array element at index 2:"
+print arr[2]
+
+arr[2] = 100
+
+print "Array element at index 2 after update:"
+print arr[2]
+
+# Mix of operations
+total = 0
+i = 0
+
+# Manual loop simulation (if loops not implemented, simulate manually)
+total = arr[0] + arr[1] + arr[2] + arr[3]
+
+print "Sum of array elements:"
+print total
+
+print "Test program complete"
